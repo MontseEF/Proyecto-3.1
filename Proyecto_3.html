@@ -169,7 +169,7 @@
         <div class="col-md-4">
           <div class="card h-100 shadow">
             <img
-              src="./Assets/tornillo madera.avif"
+              src="./Assets/tornillo-madera.avif"
               class="card-img-top img-fit"
               alt="tornillos"
             />
@@ -181,27 +181,141 @@
     </section>
 
     <!-- Catálogo -->
-    <section id="catalogo" class="catalogo container my-5">
-      <h2>Nuestro Catálogo</h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="./Assets/catalogo1.jpg"
-              class="card-img-top"
-              alt="Catálogo 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Set de Herramientas</h5>
-              <p class="card-text">
-                Kit completo ideal para el hogar o profesional.
-              </p>
+    <section class="container my-5">
+  <h2 class="text-center mb-4">Catálogo</h2>
+  <div id="catalogoCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/atornillador.webp" class="card-img-top img-fit" alt="Atornillador">
+              <div class="card-body">
+                <h5 class="card-title">Atornillador Eléctrico Ingco 1200W</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/cemento.png" class="card-img-top img-fit" alt="Cemento">
+              <div class="card-body">
+                <h5 class="card-title">Saco Cemento Polpaico 25kg</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/disco-corte.jpg" class="card-img-top img-fit" alt="disco-corte">
+              <div class="card-body">
+                <h5 class="card-title">Disco Corte 4 1/2</h5>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Agrega más productos aquí -->
       </div>
-    </section>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/esmeril-angular.webp" class="card-img-top img-fit" alt="esmeril">
+              <div class="card-body">
+                <h5 class="card-title">Esmeril Angular 4 1/2</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/pintura.webp" class="card-img-top img-fit" alt="Pintura">
+              <div class="card-body">
+                <h5 class="card-title">Latex Fast Galón</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/pvc-sanitario.png" class="card-img-top img-fit" alt="PVC">
+              <div class="card-body">
+                <h5 class="card-title">Tubería PVC Sanitario</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/sierra-circular.webp" class="card-img-top img-fit" alt="sierra-circular">
+              <div class="card-body">
+                <h5 class="card-title">Sierra Circular Ingco 1400W</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/taladro-percutor.webp" class="card-img-top img-fit" alt="taladro">
+              <div class="card-body">
+                <h5 class="card-title">Taladro Percutor Truper 1200W</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/tornillo-madera.avif" class="card-img-top img-fit" alt="tornillo">
+              <div class="card-body">
+                <h5 class="card-title">Tornillos V-Madera CRS 6x1 5/8 </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 (último) -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/tuberia-hidraulica.jpg" class="card-img-top img-fit" alt="pvc-azul">
+              <div class="card-body">
+                <h5 class="card-title">PVC Hidráulico</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/pernos.jpg" class="card-img-top img-fit" alt="Pernos">
+              <div class="card-body">
+                <h5 class="card-title">Perno Hexagonal M8x1</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./Assets/lija.jpg" class="card-img-top img-fit" alt="Lija">
+              <div class="card-body">
+                <h5 class="card-title">Lija Madera G100</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Controles del carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#catalogoCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#catalogoCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+
+  </div>
+</section>
 
     <!-- Footer -->
     <footer>
