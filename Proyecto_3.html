@@ -1,120 +1,159 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Proyecto3</title>
-  </head>
-
-  <body>
-    <section id="navegacion">
-     <nav class="navbar navbar-expand-md fuente-navbar" style="background-color: #eedd60fd;"> 
-        <div class="container-fluid"> 
-          <img
-            src="./assets/logo.1.jpeg"
-            alt="Logo"
-            width="60"
-            height="60"
-            class="d-inline-block align-text-top"
-          />
-          
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNavAltMarkup"
-          >
-            <div class="navbar-nav nav-underline">
-              <a class="nav-link active" aria-current="page" href="#/"
-                >Inicio</a
-              >
-              <a class="nav-link" href="#catalogo">Catálogo</a>
-              <a class="nav-link" href="#">Acerca</a>
-              <a class="nav-link" href="#">Registrate</a>
-            </div>
+ 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+ 
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Proyecto3</title>
+</head>
+ 
+<body>
+  <section id="navegacion">
+    <nav class="navbar navbar-expand-md fuente-navbar" style="background-color: #eedd60fd;">
+      <div class="container-fluid">
+        <img src="./assets/logo.1.jpeg" alt="Logo" width="60" height="60" class="d-inline-block align-text-top" />
+ 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-underline">
+            <a class="nav-link active" aria-current="page" href="#/">Inicio</a>
+            <a class="nav-link" href="#catalogo">Catálogo</a>
+            <a class="nav-link" href="#">Acerca</a>
+            <a class="nav-link" href="#">Registrate</a>
           </div>
         </div>
-      </nav>
-    </section>
-    <section id="landing">
-      <div class="card">
-        <img
-          src="./Assets/hero-image-zona-franca1.jpeg"
-          class="card-img"
-          alt="Imagen de fondo Zona Franca"   
-          style="width: 100%; object-fit: contain;"
-        />
-        <div class="card-img-overlay"></div>
       </div>
-    </section>
-    <main id="catalogo">
-        <div class="container text-center"> 
-  <div class="row">
-    <div class="col">
-      Column
+    </nav>
+  </section>
+  <section id="landing" class="vh-100 vw-100 d-flex align-items-center justify-content-center p-0 m-0 overflow-hidden">
+    <div class="card w-100 h-100 border-0 rounded-0">
+      <img src="./Assets/zona-franca-hero-image.png" class="card-img w-100 h-100 img-fluid object-fit-cover"
+        alt="Imagen de fondo Zona Franca" />
     </div>
-    <div class="col">
-      Column
+  </section>
+<section class="main-container">
+  <main>
+    <article id="Sobre nosotros">
+      <h2>Más de 40 años junto a ti</h2> 
+      <p>
+          Ferretería Zona Franca te apoya e impulsa en tus nuevos proyectos. 
+      </p>
+      <p>
+          Somos una empresa con más de 40 años de trayectoria en el rubro ferretero, ofreciendo una amplia gama de productos y servicios para satisfacer las necesidades de nuestros clientes. Trabajando cada día más para alcanzar la excelencia y brindar un buen servicio a nuestra comunidad.    
+      </p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+        </div>
+      </div>
+    </article>
+
+    
+            <div class="container text-center">
+  <div class="row justify-content-start">
+    <div class="col-4">
+      One of two columns
     </div>
-    <div class="col">
-      Column
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-around">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-evenly">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
     </div>
   </div>
 </div>
-      <p class="fw-bold fs-4">Catalogo de productos:</p>
-      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-        <!--Card 1-->
-        <div class="card" style="width: 18rem; height: 30rem">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card’s content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+ 
+    <p class="fw-bold fs-4">Catalogo de productos:</p>
+ 
+    <div class="container px-4 text-center">
+      <div class="row gx-5">
+        <div class="col">
+          <!--card -->
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
           </div>
+          <!--Fin card -->
         </div>
-        <!--Card 2-->
-        <div class="card" style="width: 18rem">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card’s content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="col">
+          <!--card -->
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
           </div>
+          <!--Fin card -->
         </div>
       </div>
+    </div>
     </main>
     <footer>pie de pagina</footer>
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous"
-  ></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+ 
+</html>rity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+ 
 </html>
