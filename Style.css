@@ -22,7 +22,7 @@ body {
 .hero {
   position: relative;
   height: 400px;
-  background-image: url('./Assets/hero-image.jpg'); /* Reemplaza con tu imagen */
+  background-image: url('./Assets/hero-image.jpg'); 
   background-size: cover;
   background-position: center;
 }
@@ -43,7 +43,6 @@ body {
   font-weight: 400;
 }
 
-/* Galería estilo Makita */
 .galeria-makita {
   padding: 3rem 1rem;
   background-color: #fff;
